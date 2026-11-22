@@ -1,0 +1,7 @@
+# rust-security-advisories-ja
+
+> RustSecJP（非公式のコミュニティ）による、Rust のセキュリティ文書の非公式な日本語訳。原著者の確認や公認は受けていない。
+
+## 日本語訳
+
+- [Rust 公式ブログのセキュリティ勧告（Rust Blog 日本語訳）](https://rustsecjp.github.io/rust-security-advisories-ja/): Rust 公式ブログに掲載されたセキュリティ勧告（rustc・標準ライブラリ・Cargo などの CVE）と、crates.io のセキュリティ事件・悪意あるクレートの報告記事の、非公式な日本語訳。2018 年から 2026 年までの全 29 本。原文は https://blog.rust-lang.org/ （MIT または Apache-2.0）。

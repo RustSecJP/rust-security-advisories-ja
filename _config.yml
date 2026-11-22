@@ -1,0 +1,16 @@
+title: Rust 公式ブログのセキュリティ勧告（日本語訳）
+lang: ja
+baseurl: /rust-security-advisories-ja
+url: https://rustsecjp.github.io
+repo_url: https://github.com/RustSecJP/rust-security-advisories-ja
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - .github
+  - README.md
+  - NOTICE.md

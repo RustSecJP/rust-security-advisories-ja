@@ -1,0 +1,43 @@
+short: Rust セキュリティ勧告
+title: Rust 公式ブログのセキュリティ勧告
+original_title: Rust Blog
+seo_title: Rust 公式ブログのセキュリティ勧告（Rust Blog 日本語訳）
+summary: Rust 公式ブログ（blog.rust-lang.org）に掲載されたセキュリティ勧告と、crates.io のセキュリティ事件・悪意あるクレートの報告記事の、非公式な日本語訳。2018 年から 2026 年までの 29 本（rustc・標準ライブラリ・Cargo・rustdoc・mdBook・regex の CVE、crates.io の事件、サプライチェーン攻撃の報告）を全文訳している。
+author: The Rust Project（各記事の著者・チーム）
+source: https://github.com/rust-lang/blog.rust-lang.org
+license: MIT または Apache-2.0
+license_url: https://github.com/rust-lang/blog.rust-lang.org/blob/8666f7c3a86260ec58e4d914d451b14613c690a4/LICENSE-MIT
+version: 2026-11-20 時点（コミット 8666f7c）
+translated: 2026-11-22
+disclaimer: Rust Project・Rust Foundation・crates.io・RustSec とは提携していません。
+nav: []
+chapters:
+  - {file: "2018-07-06-security-advisory-for-rustdoc.html", title: "rustdoc のセキュリティ勧告（2018-07-06）"}
+  - {file: "2018-09-21-security-advisory-for-std.html", title: "標準ライブラリのセキュリティ勧告（2018-09-21）"}
+  - {file: "2018-10-19-update-on-crates.io-incident.html", title: "2018 年 10 月 15 日の crates.io の事件についての続報（2018-10-19）"}
+  - {file: "2019-05-13-security-advisory.html", title: "標準ライブラリのセキュリティ勧告（2019-05-13）"}
+  - {file: "2019-09-30-security-advisory-for-cargo.html", title: "Cargo のセキュリティ勧告（2019-09-30）"}
+  - {file: "2020-07-14-crates-io-security-advisory.html", title: "crates.io のセキュリティ勧告（2020-07-14）"}
+  - {file: "2021-01-04-mdbook-security-advisory.html", title: "mdBook のセキュリティ勧告（2021-01-04）"}
+  - {file: "2021-11-01-cve-2021-42574.html", title: "rustc のセキュリティ勧告（CVE-2021-42574）（2021-11-01）"}
+  - {file: "2022-01-20-cve-2022-21658.html", title: "標準ライブラリのセキュリティ勧告（CVE-2022-21658）（2022-01-20）"}
+  - {file: "2022-03-08-cve-2022-24713.html", title: "regex クレートのセキュリティ勧告（CVE-2022-24713）（2022-03-08）"}
+  - {file: "2022-05-10-malicious-crate-rustdecimal.html", title: "セキュリティ勧告: 悪意あるクレート rustdecimal（2022-05-10）"}
+  - {file: "2022-09-14-cargo-cves.html", title: "Cargo のセキュリティ勧告（CVE-2022-36113、CVE-2022-36114）（2022-09-14）"}
+  - {file: "2023-01-10-cve-2022-46176.html", title: "Cargo のセキュリティ勧告（CVE-2022-46176）（2023-01-10）"}
+  - {file: "2023-08-03-cve-2023-38497.html", title: "Cargo のセキュリティ勧告（CVE-2023-38497）（2023-08-03）"}
+  - {file: "2023-09-01-crates-io-malware-postmortem.html", title: "crates.io の事後報告: ユーザーがアップロードしたマルウェア（2023-09-01）"}
+  - {file: "2024-04-09-cve-2024-24576.html", title: "標準ライブラリのセキュリティ勧告（CVE-2024-24576）（2024-04-09）"}
+  - {file: "2024-09-04-cve-2024-43402.html", title: "標準ライブラリのセキュリティ勧告（CVE-2024-43402）（2024-09-04）"}
+  - {file: "2025-04-11-crates-io-security-session-cookies.html", title: "crates.io のセキュリティ事件: 不適切に保存されていたセッション cookie（2025-04-11）"}
+  - {file: "2025-09-12-2025-09-crates-io-phishing-campaign.html", title: "crates.io を狙ったフィッシングキャンペーン（2025-09-12）"}
+  - {file: "2025-09-24-crates.io-malicious-crates-fasterlog-and-asyncprintln.html", title: "crates.io: 悪意あるクレート faster_log と async_println（2025-09-24）"}
+  - {file: "2025-12-03-crates.io-malicious-crates-evm-units-and-uniswap-utils.html", title: "crates.io: 悪意あるクレート evm-units と uniswap-utils（2025-12-03）"}
+  - {file: "2025-12-05-crates.io-malicious-crates-finch-rust-and-sha-rust.html", title: "crates.io: 悪意あるクレート finch-rust と sha-rust（2025-12-05）"}
+  - {file: "2026-02-13-crates.io-malicious-crate-update.html", title: "crates.io: 悪意あるクレートの通知方針の更新（2026-02-13）"}
+  - {file: "2026-03-21-cve-2026-33056.html", title: "Cargo のセキュリティ勧告（2026-03-21）"}
+  - {file: "2026-05-25-cve-2026-5222.html", title: "Cargo のセキュリティ勧告（CVE-2026-5222）（2026-05-25）"}
+  - {file: "2026-05-25-cve-2026-5223.html", title: "Cargo のセキュリティ勧告（CVE-2026-5223）（2026-05-25）"}
+  - {file: "2026-08-20-supply-chain-attack-on-arrayref.html", title: "arrayref へのサプライチェーン攻撃（2026-08-20）"}
+  - {file: "2026-09-17-targeted-attacks.html", title: "ご注意ください: 著名な Rustacean を狙った標的型攻撃（2026-09-17）"}
+  - {file: "2026-09-21-github-actions-leaking-secrets-when-miri-output-is-cached.html", title: "Miri の出力をキャッシュすると GitHub Actions でシークレットが漏れる問題（2026-09-21）"}
