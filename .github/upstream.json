@@ -1,0 +1,40 @@
+{
+  "upstreams": [
+    {
+      "repo": "rust-lang/blog.rust-lang.org",
+      "branch": "main",
+      "paths": [
+        "content/security-advisory-for-rustdoc.md",
+        "content/Security-advisory-for-std.md",
+        "content/Update-on-crates.io-incident.md",
+        "content/Security-advisory.md",
+        "content/Cargo.md",
+        "content/Security-advisory.md",
+        "content/Security-advisory.md",
+        "content/cve-2021-42574.md",
+        "content/cve-2022-21658.md",
+        "content/cve-2022-24713.md",
+        "content/malicious-crate-rustdecimal.md",
+        "content/cargo-cves.md",
+        "content/cve-2022-46176.md",
+        "content/cve-2023-38497.md",
+        "content/inside-rust/crates-io-malware-postmortem.md",
+        "content/cve-2024-24576.md",
+        "content/cve-2024-43402.md",
+        "content/crates-io-security-session-cookies.md",
+        "content/2025-09-crates-io-phishing-campaign.md",
+        "content/crates.io-malicious-crates-fasterlog-and-asyncprintln.md",
+        "content/crates.io-malicious-crates-evm-units-and-uniswap-utils.md",
+        "content/crates.io-malicious-crates-finch-rust-and-sha-rust.md",
+        "content/crates.io-malicious-crate-update.md",
+        "content/cve-2026-33056.md",
+        "content/cve-2026-5222.md",
+        "content/cve-2026-5223.md",
+        "content/supply-chain-attack-on-arrayref.md",
+        "content/targeted-attacks.md",
+        "content/github-actions-leaking-secrets-when-miri-output-is-cached.md"
+      ],
+      "base": "8666f7c3a86260ec58e4d914d451b14613c690a4"
+    }
+  ]
+}
